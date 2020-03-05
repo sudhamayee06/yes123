@@ -1,0 +1,46 @@
+{  
+   "active":[
+                {"username":"snapwiz","path":"/home/{{userName}}/project/application/src/main/java/com/pagination/controllers/HomeController.java","focused":true},
+                {"username":"snapwiz","path":"/home/{{userName}}/project/application/src/main/java/com/pagination/service/PhotoService.java","focused":false}],
+   "projects":[  
+      {  
+         "name":"photos",
+         "path":"/home/{{userName}}/project/application",
+         "container_id":"testContainerId",
+         "collaboration":false,
+         "source":"{{xtermUrl}}",
+         "build":true,
+         "browser":false,
+         "browser_url":"{{browserUrl}}",
+         "runsql":false,
+         "refresh_xterm_url":"{{refreshXtermUrl}}",
+         "downloadOptions": {
+             "include": [
+                            {
+                                "source": "/root/setup/data/*.sql",
+                                "dest": "test/"
+                            }
+             ]
+         },
+         "uploadOptions": {
+             "include": [
+                            {
+                                "dest": "/root/setup/",
+                                "source": "test"
+                            }
+             ]
+         },
+      	"build_command":"cd /home/{{userName}}/project/application;mvn clean integration-test -P integration -o",
+         "readOnlyFolders":["/home/{{userName}}/project/application/src/test","/home/{{userName}}/project/application/pom.xml","/home/{{userName}}/project/application/README.txt"],
+         "hiddenFiles":[
+                          "/home/{{userName}}/project/application/target/result.json",
+                          "/home/{{userName}}/project/application/spring-cucumber.iml"
+         ],
+         "hiddenFolders":[
+                          "/home/{{userName}}/project/application/com.pagination.entities.Photo",
+                          "/home/{{userName}}/project/application/parent-boot-4"
+         ]
+      }
+   ]
+}
+

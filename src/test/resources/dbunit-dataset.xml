@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE dataset [
+        <!ELEMENT dataset (photo)*>
+        <!ELEMENT photo EMPTY>
+        <!ATTLIST photo
+                id CDATA #REQUIRED
+                title CDATA #REQUIRED
+                description CDATA #REQUIRED
+                owner CDATA #REQUIRED
+                createdate CDATA #REQUIRED
+                updatedate CDATA #REQUIRED>
+        ]>
+
+<dataset>
+    <photo id="2f371e6f-dc55-4f03-a850-3c1148c431e7"  title="Golden Gate"                description="Golden Gate"                  owner="Sophia Jacob"      createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="4dec4eaf-42eb-454d-8e97-33c9fd7c8d1b"  title="Alcatraz"                   description="Alcatraz"                     owner="Sophia Jacob"      createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="4e3a0665-1229-4264-8c0e-3f89bc862187"  title="Ferry Building Marketplace" description="Ferry Building Marketplace"   owner="Sophia Jacob"      createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="5e9f4ceb-21f9-41cc-aab7-c78cb6cd4946"  title="Golden Gate Park"           description="Golden Gate Park"             owner="Olivia Jayden"     createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="7cd6258e-32d1-475d-be1b-1735087df303"  title="Alamo Square"               description="Alamo Square"                 owner="Olivia Jayden"     createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="dd30b4af-bcd9-4949-9493-403e073d2e88"  title="Cable Cars"                 description="Cable Cars"                   owner="Olivia Jayden"     createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="2f371e6f-dc55-4f03-a850-3c1148c431e72" title="Fisherman's Wharf"          description="Fisherman's Wharf"            owner="Olivia Jayden"     createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="4dec4eaf-42eb-454d-8e97-33c9fd7c8d1b2" title="Barbary Coast"              description="Barbary Coast"                owner="Alexander Madison" createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="4e3a0665-1229-4264-8c0e-3f89bc8621872" title="Chinatown"                  description="Chinatown"                    owner="Mia Aiden"         createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="5e9f4ceb-21f9-41cc-aab7-c78cb6cd49462" title="Coit Tower"                 description="Coit Tower"                   owner="Mia Aiden"         createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="7cd6258e-32d1-475d-be1b-1735087df3032" title="Land's End"                 description="Land's End"                   owner="Ella Matthew" createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+    <photo id="dd30b4af-bcd9-4949-9493-403e073d2e882" title="Crissy Field"               description="Crissy Field"                 owner="Ella Matthew"      createdate="2017-11-27 17:55:52" updatedate="2017-11-27 17:55:52"/>
+</dataset>
